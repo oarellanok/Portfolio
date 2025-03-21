@@ -41,7 +41,7 @@ h1 {
     transition: transform 0.3s, color 0.3s; /* Añade una transición suave para los cambios */
 }    
 
-.project-link:hover {
+.project2-link:hover {
     color: #008000; /* Cambia el color del texto al pasar el ratón */
     transform: scale(1.2); /* Aumenta el tamaño del enlace */
 }
