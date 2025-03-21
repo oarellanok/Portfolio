@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiplicación de Matrices</title>
+    <title>Matrices Multiplication Tool</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,29 +41,29 @@
 </head>
 <body>
     <div class="container">
-        <h1>Multiplicación de Matrices</h1>
-        <p>Introduce las dimensiones:</p>
+        <h1>Matrices Multiplication</h1>
+        <p>Introduce Matrices Dimensions:</p>
         <div>
-            <label for="rows1">Filas de la primera matriz:</label>
+            <label for="rows1">Rows on Matrix 1:</label>
             <input type="number" id="rows1" min="1">
         </div>
         <div>
-            <label for="cols1">Columnas de la primera matriz:</label>
+            <label for="cols1">Columns on Matrix 1:</label>
             <input type="number" id="cols1" min="1">
         </div>
         <div>
-            <label for="rows2">Filas de la segunda matriz:</label>
+            <label for="rows2">Rows on Matrix 2:</label>
             <input type="number" id="rows2" min="1">
         </div>
         <div>
-            <label for="cols2">Columnas de la segunda matriz:</label>
+            <label for="cols2">Columns on Matrix 2:</label>
             <input type="number" id="cols2" min="1">
         </div>
-        <button onclick="validateAndGenerateInputs()">Validar y generar matrices</button>
+        <button onclick="validateAndGenerateInputs()">Validate and Multiply Matrices</button>
         <div id="matrixInputs"></div>
         <div id="compatibilityMessage" style="color: red; font-weight: bold; margin-top: 10px;"></div>
         <button id="calculateButton" style="display: none;" onclick="calculate()">Calcular</button>
-        <h3 id="resultTitle" style="display: none;">Resultado:</h3>
+        <h3 id="resultTitle" style="display: none;">Result:</h3>
         <div id="resultMatrix"></div>
     </div>
     <script src="multiMatricesApp.js"></script>
