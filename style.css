@@ -26,8 +26,8 @@ h1 {
 }
 
 .project-link, .project2-link {
-    display: inline-block;
-    padding: 10px 20px;
+    display: inline-block; /* hace que tenga size ajustable */
+    padding: 10px 20px; 
     background-color: #28a745;
     color: white;
     text-decoration: none;
@@ -36,6 +36,7 @@ h1 {
 }
 
 .project-link:hover, .project2-link:hover {
-    background-color: #218838; /* Un verde más oscuro al pasar el ratón */
+    color: #ff0000; /* Cambia el color del texto al pasar el ratón */
+    transform: scale(1.2); /* Aumenta el tamaño del enlace */
 }
 
