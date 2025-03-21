@@ -25,32 +25,17 @@ h1 {
     text-align: center; /* Centra todo el contenido dentro del contenedor */
 }
 
-.project-link {
-    display: inline-block; /* Hace que el enlace tenga tamaño ajustable */
-    margin-top: 10px; /* Añade espacio entre la imagen y el enlace */
-    color: #007bff; /* Color del texto del enlace */
-    text-decoration: none; /* Elimina el subrayado predeterminado */
-    font-size: 1.5rem; /* Haz el texto un poco más grande */
-    font-weight: bold; /* Enfatiza el texto */
-    transition: transform 0.3s, color 0.3s; /* Añade una transición suave para los cambios */
+.project-link, .project2-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.project-link:hover {
-    color: #ff0000; /* Cambia el color del texto al pasar el ratón */
-    transform: scale(1.2); /* Aumenta el tamaño del enlace */
+.project-link:hover, .project2-link:hover {
+    background-color: #218838; /* Un verde más oscuro al pasar el ratón */
 }
 
-.project2-link {
-    display: inline-block; /* Hace que el enlace tenga tamaño ajustable */
-    margin-top: 10px; /* Añade espacio entre la imagen y el enlace */
-    color: #00a000; /* Color del texto del enlace */
-    text-decoration: none; /* Elimina el subrayado predeterminado */
-    font-size: 1.5rem; /* Haz el texto un poco más grande */
-    font-weight: bold; /* Enfatiza el texto */
-    transition: transform 0.3s, color 0.3s; /* Añade una transición suave para los cambios */
-}    
-
-.project2-link:hover {
-    color: #008000; /* Cambia el color del texto al pasar el ratón */
-    transform: scale(1.2); /* Aumenta el tamaño del enlace */
-}
