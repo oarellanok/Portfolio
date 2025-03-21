@@ -12,3 +12,23 @@ h1 {
     background: linear-gradient(45deg, #ff0000, #8b0000); /* Fondo rojo degradado */
     border-radius: 10px; /* Bordes ligeramente curvados */
 }
+.project {
+    text-align: center; /* Centra todo el contenido dentro del contenedor */
+}
+
+.project-link {
+    display: inline-block; /* Hace que el enlace tenga tamaño ajustable */
+    margin-top: 10px; /* Añade espacio entre la imagen y el enlace */
+    color: #007bff; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    font-size: 1.2rem; /* Haz el texto un poco más grande */
+    font-weight: bold; /* Enfatiza el texto */
+    transition: transform 0.3s, color 0.3s; /* Añade una transición suave para los cambios */
+}
+
+.project-link:hover {
+    color: #ff0000; /* Cambia el color del texto al pasar el ratón */
+    transform: scale(1.2); /* Aumenta el tamaño del enlace */
+}
+
+    
