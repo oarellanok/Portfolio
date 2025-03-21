@@ -31,7 +31,7 @@ h1 {
     transform: scale(1.2); /* Aumenta el tamaño del enlace */
 }
 
-.project-link {
+.project2-link {
     display: inline-block; /* Hace que el enlace tenga tamaño ajustable */
     margin-top: 10px; /* Añade espacio entre la imagen y el enlace */
     color: green; /* Color del texto del enlace */
