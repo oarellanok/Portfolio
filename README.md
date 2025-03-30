@@ -45,16 +45,16 @@ How It Works
 Learning Objectives
 This project highlights:
 
-File handling and external data management in Python.
+- File handling and external data management in Python.
 
-Building interactive and engaging user experiences.
+- Building interactive and engaging user experiences.
 
-Applying control flow and error handling effectively.
+- Applying control flow and error handling effectively.
 
 Future possible Improvements
 
-Add different difficulty levels based on word complexity or using phrases.
+- Add different difficulty levels based on word complexity or using phrases.
 
-Enable graphical representation using existing libraries.
+- Enable graphical representation using existing libraries.
 
-Expand the word list dynamically by integrating an API or online dictionary.
+- Expand the word list dynamically by integrating an API or online dictionary.
